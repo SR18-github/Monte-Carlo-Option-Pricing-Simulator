@@ -9,7 +9,7 @@ from scipy.stats import norm
 from scipy.optimize import brentq
 
 st.set_page_config(layout="wide")
-st.title("📈 Monte Carlo Option Simulator — Call vs Put Dashboard with Live Updates")
+st.title("📈 Monte Carlo Option Simulator")
 
 # ---------------------------
 # Sidebar Inputs
