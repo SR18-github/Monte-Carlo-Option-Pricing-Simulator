@@ -140,7 +140,7 @@ tab1, tab2, tab3 = st.tabs(["MC Paths", "Terminal Histogram", "MC Convergence"])
 
 # ----- Tab1: Animated Paths -----
 with tab1:
-    subset_size = min(animation_sample_size, num_sim)
+    subset_size = min(animation_sample_size, num_sim, 50)
     subset_indices = np.random.choice(num_sim, subset_size, replace=False)
     subset_paths = price_paths[subset_indices]
     time_axis = list(range(n_steps+1))
