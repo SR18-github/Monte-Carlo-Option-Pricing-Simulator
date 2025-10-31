@@ -27,7 +27,7 @@ n_steps = st.sidebar.number_input("Time steps (per path)", 10, 252, 50, 1)
 num_sim = st.sidebar.number_input("Total number of simulations", 50, 5000, 400, 50)
 batch_size = st.sidebar.number_input("Simulations per animation wave", 5, 500, 20, 5)
 K = st.sidebar.slider("Strike Price (K). If 0, defaults to spot", 0.0, 5000.0, 0.0, 0.5)
-animation_sample_size = st.sidebar.slider("Max paths displayed for animation", 10, 500, 100, 10)
+animation_sample_size = st.sidebar.slider("Max paths displayed for animation", 10, 200, 100, 10)
 animation_speed = st.sidebar.slider("Animation speed (ms per frame)", 50, 1000, 250, 50)
 
 # ---------------------------
